@@ -1,7 +1,7 @@
 # Reto-IX
 ## Funciones Recursivas
 
-
+### Funciones de retos anteriores pasadas a lambda
 #### - Funcion 4 Reto # 6
 ```python
 if __name__ == "__main__":
