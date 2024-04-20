@@ -37,3 +37,23 @@ print(f"McL {a}")
 print(math.e**x)
 ```
 ### Funciones de retos anteriores con argumentos no definidos
+
+
+
+### Potencia Recursiva
+```python
+def pot(n: int, m: int) -> int:
+    # Caso base
+    if m == 0:
+        return 1 # Cualquier numero elevado a 0 es igual a 1
+    else:
+        return n * pot(n, m - 1) # Condicion Recursiva
+
+if __name__ == "__main__":
+ n = int(input("Base: "))
+ m = int(input("Exponente: "))
+ r = pot(n, m)
+ print(f"{n} elevado a {m} es igual a {r}")
+```
+
+###
