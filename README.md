@@ -57,4 +57,8 @@ if __name__ == "__main__":
 ```
 
 ### StackOverFlow
+https://github.com/DKev2P24/Reto-IX/blob/main/Captura%20de%20pantalla%20(43).png
+
+### LinkedIN
+https://github.com/DKev2P24/Reto-IX/blob/main/Captura%20de%20pantalla%20(44).png
 
