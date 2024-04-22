@@ -5,10 +5,12 @@
 #### - Funcion 4 Reto # 6
 ```python
 if __name__ == "__main__":
+    # variables
     p = int(input("panes: "))
     m = int(input("bolsas: "))
     h = int(input("huevos: "))
     b = int(input("valor billete: "))
+    # Funion
     vc= ((300 * p) + (3300 * m) + (350 * h))
     c = (lambda x, y: x - y)(b,vc)
     print(f"al comprar {p} huevos, {m} bolsas y {h} huevos, me queda {c}")
