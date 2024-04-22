@@ -52,7 +52,8 @@ def promedio(*args) -> float: # Funcion con argumentos variables
     promx: float = 0 # almacena valores
     for num in args:
         promx += num
-    return promx / len(args) # se realiza la suma de valores y se divide entre la cantidad de valores
+    return promx / len(args) # se realiza la suma de valores y
+    se divide entre la cantidad de valores
 
 # variables
 if __name__ == "__main__":
@@ -70,7 +71,8 @@ def promul(*args)-> float: # Funcion con argumentos variables
     mulp: float = 1 # almacena valores
     for num in args:   
         mulp *= num
-    return mulp**(1/len(args)) # se realiza el calculo del produto de los valores, y saca la raiz n-sima de ese valor, dependiendo la cantidad de valores
+    return mulp**(1/len(args)) # se realiza el calculo del produto de los valores,
+    y saca la raiz n-sima de ese valor, dependiendo la cantidad de valores
 
 # Valores
 if __name__ == "__main__":
@@ -87,7 +89,8 @@ if __name__ == "__main__":
 def m_e_n(*args) -> float: # funcion con argumentos variables
     minx = min(args)
     maxx = max(args)
-    return maxx ** minx # se eleva el mayor numero a la n potencia, siendo n el menor valor 
+    return maxx ** minx # se eleva el mayor numero a la n potencia,
+    siendo n el menor valor 
 
 # variables
 if __name__ == "__main__":
