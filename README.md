@@ -84,7 +84,7 @@ if __name__ == "__main__":
     resultado = promul(a, b, c, d, e)
     print(f"El promedio multiplicativo es: {resultado}")
 ```
-#### Funcion 7.6
+#### Funcion 7.6 Reto 6
 ```python
 def m_e_n(*args) -> float: # funcion con argumentos variables
     minx = min(args)
