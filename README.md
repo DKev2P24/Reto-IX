@@ -68,7 +68,7 @@ if __name__ == "__main__":
 ```python
 def promul(*args)-> float: # Funcion con argumentos variables
     mulp: float = 1 # almacena valores
-    for num in args:   
+    for num in args:   # bucle
         mulp *= num
     return mulp**(1/len(args)) # se realiza el calculo del produto de los valores, y saca la raiz n-sima de ese valor, dependiendo la cantidad de valores
 
