@@ -10,7 +10,7 @@ if __name__ == "__main__":
     m = int(input("bolsas: "))
     h = int(input("huevos: "))
     b = int(input("valor billete: "))
-    # Funion
+    # Funcion
     vc= ((300 * p) + (3300 * m) + (350 * h))
     c = (lambda x, y: x - y)(b,vc)
     print(f"al comprar {p} huevos, {m} bolsas y {h} huevos, me queda {c}")
